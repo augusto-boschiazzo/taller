@@ -1,0 +1,16 @@
+package final2022;
+
+public abstract class Subsidio {
+	private String nombre;
+	private String plan;
+	private String solicitud;
+	
+	public Subsidio(String nombre, String plan, String solicitud) {
+		super();
+		this.nombre = nombre;
+		this.plan = plan;
+		this.solicitud = solicitud;
+	}
+	
+
+}

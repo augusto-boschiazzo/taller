@@ -1,0 +1,24 @@
+package punto2;
+
+public class Entrenador extends Empleado {
+	private int campeonatos;
+
+	public Entrenador(String nombre, double sueldoBasico, int campeonatos) {
+		super(nombre, sueldoBasico);
+		this.campeonatos = campeonatos;
+	}
+	
+	public int getCampeonatos() {
+		return campeonatos;
+	}
+
+	public void setCampeonatos(int campeonatos) {
+		this.campeonatos = campeonatos;
+	}
+
+	public double calcularSueldoACobrar() {
+		
+	}
+	
+
+}

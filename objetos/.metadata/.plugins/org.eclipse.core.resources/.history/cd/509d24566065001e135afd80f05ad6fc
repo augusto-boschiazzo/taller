@@ -1,0 +1,12 @@
+package punto2;
+
+public class Entrenador extends Empleado {
+	private int campeonatos;
+
+	public Entrenador(String nombre, double sueldoBasico, int campeonatos) {
+		super(nombre, sueldoBasico);
+		this.campeonatos = campeonatos;
+	}
+	
+
+}

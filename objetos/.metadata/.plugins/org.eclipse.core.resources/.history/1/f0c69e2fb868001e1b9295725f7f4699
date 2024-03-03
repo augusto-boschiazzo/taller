@@ -1,0 +1,9 @@
+package final2022;
+
+public class Main {
+
+	public static void main(String[] args) {
+		SubsidioEstadia sub1 = new SubsidioEstadia("Cami", "Progresar", "Hoy", "Bariloche", 100, 7, 10);
+	}
+
+}

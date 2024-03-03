@@ -1,0 +1,6 @@
+package final2022;
+
+public class SubsidioBienes extends Subsidio{
+	
+
+}

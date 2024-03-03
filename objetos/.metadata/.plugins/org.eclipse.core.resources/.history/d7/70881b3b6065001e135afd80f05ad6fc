@@ -1,0 +1,14 @@
+package punto2;
+
+public class Jugador extends Empleado {
+	private int partidos;
+	private int goles;
+
+	public Jugador(String nombre, double sueldoBasico, int partidos, int goles) {
+		super(nombre, sueldoBasico);
+		this.partidos = partidos;
+		this.goles = goles;
+	}
+	
+
+}

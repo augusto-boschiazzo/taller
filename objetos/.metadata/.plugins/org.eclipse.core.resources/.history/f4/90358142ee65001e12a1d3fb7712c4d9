@@ -1,0 +1,18 @@
+package concursoDeBaile;
+
+public class Concurso {
+	private Pareja[] parejas;
+	private int dimL;
+	private int dimF;
+
+	public Concurso(int dimF) {
+		this.parejas = new Pareja[dimF];
+		this.dimF = dimF;
+	}
+	
+	public void agregarPareja() {
+		
+	}
+	
+
+}

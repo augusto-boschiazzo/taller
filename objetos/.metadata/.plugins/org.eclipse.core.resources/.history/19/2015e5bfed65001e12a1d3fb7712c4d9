@@ -1,0 +1,15 @@
+package concursoDeBaile;
+
+public class Pareja {
+	Participante[] participantes;
+	String estilo;
+	
+	public Pareja(Participante participante1, Participante participante2, String estilo) {
+		this.participantes = new Participante[2];
+		this.participantes[0] = participante1;
+		this.participantes[1] = participante2;
+		this.estilo = estilo;
+	}
+	
+
+}

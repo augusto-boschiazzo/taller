@@ -1,0 +1,60 @@
+package final2022;
+
+public class SubsidioEstadia extends Subsidio {
+	private String destino;
+	private double precio_pasajes;
+	private int duracion;
+	private double precio_hotel;
+	
+	public SubsidioEstadia(String nombre, String plan, String solicitud, String destino, double precio_pasajes, 
+			int duracion, double precio_hotel) {
+		super(nombre, plan, solicitud);
+		this.destino = destino;
+		this.precio_pasajes = precio_pasajes;
+		this.duracion = duracion;
+		this.precio_hotel = precio_hotel;
+	}
+
+	public String getDestino() {
+		return destino;
+	}
+
+	public void setDestino(String destino) {
+		this.destino = destino;
+	}
+
+	public double getPrecio_pasajes() {
+		return precio_pasajes;
+	}
+
+	public void setPrecio_pasajes(double precio_pasajes) {
+		this.precio_pasajes = precio_pasajes;
+	}
+
+	public int getDuracion() {
+		return duracion;
+	}
+
+	public void setDuracion(int duracion) {
+		this.duracion = duracion;
+	}
+
+	public double getPrecio_hotel() {
+		return precio_hotel;
+	}
+
+	public void setPrecio_hotel(double precio_hotel) {
+		this.precio_hotel = precio_hotel;
+	}
+	
+	public double getMontoTotal() {
+		return this.precio_pasajes + this.precio_hotel * this.duracion;
+	}
+	
+	public String toString() {
+		String aux = super.toString() + " Lugar de destino: " + this.destino + " Dias de estadia: " + this.duracion;
+		return aux;
+	}
+	
+
+}

@@ -1,0 +1,20 @@
+package final2022;
+
+public class SubsidioBienes extends Subsidio{
+	private int dimF;
+	private int dimL;
+	private Bien [] bienes;
+	
+	public SubsidioBienes(String nombre, String plan, String solicitud, int dimF) {
+		super(nombre, plan, solicitud);
+		this.dimF = dimF;
+		this.dimL = 0;
+		this.bienes = new Bien[dimF];
+	}
+
+	public Bien[] getBienes() {
+		return bienes;
+	}
+	
+
+}

@@ -1,0 +1,11 @@
+package concursoDeBaile;
+
+public class Concurso {
+	Pareja[] parejas;
+
+	public Concurso(int n) {
+		this.parejas = new Pareja[n];
+	}
+	
+
+}

@@ -1,0 +1,8 @@
+package punto2;
+
+public class Jugador extends Empleado {
+	public int partidos;
+	public int goles;
+	
+
+}
